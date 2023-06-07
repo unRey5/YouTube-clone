@@ -29,7 +29,7 @@ Nav styles
 }
 
 nav {
-    padding: .5rem;
+    padding: 1rem;
 }
 
 .left-nav {
@@ -43,7 +43,10 @@ nav {
     font-size: 1.2rem;
 }
 
-.fa-youtube {
+.fa-youtube,
+.fa-clover,
+.fa-circle-play,
+.fa-child {
     color: red;
 }
 
@@ -97,12 +100,87 @@ nav {
 
 /* ================================
 
-Nav styles
+side-bar styles
 
 =============================== */
 
+
+.side-bar {
+    width: 16%;
+    padding-left: 1rem;
+}
 .side-bar-links li {
     list-style-type: none;
 }
 
+.side-bar-links a {
+    padding: .5rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    line-height: 2.5;
+}
+.side-bar-links a i {
+    margin-right: 1rem;
+}
+.links {
+    background-color: #ccc;
+    border-radius: 5px;
+}
 
+.side-bar hr {
+    margin: 1rem 0;
+    border: 0;
+    background: #ccc;
+    height: .06rem;
+}
+
+.side-bar-links p {
+    padding: .4rem;
+}
+
+/* .subscriptions {
+} */
+.subscriptions img {
+    border-radius: 50%;
+    width: 25px;
+
+}
+.subscriptions a {
+    gap: 1rem;
+    padding: .4rem 0;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.bttm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bttm a {
+    text-decoration: none;
+    color: #000;
+}
+
+.bttmm {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.bttmm a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.cards {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+.grid {
+    display: flex;
+    gap: 3rem;
+}
